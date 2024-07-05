@@ -5,7 +5,7 @@ public class revstring {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		String input = "sriganth";
+		String input = "sriganth hey how are you";
 		StringBuffer result = new StringBuffer(input);
 		System.out.println(result.reverse());
 		
