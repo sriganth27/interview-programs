@@ -13,6 +13,8 @@ public class sumofdigits {
 		}
 		
 		System.out.println(sum);
+		
 	}
-
+	
+	
 }
