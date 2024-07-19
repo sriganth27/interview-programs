@@ -12,7 +12,7 @@ public class MatrixMultiplication {
 		int m2rows = matrix2.length;
 		int m2colms = matrix2[0].length;
 		
-		if(m1colms != m2rows) {
+		if(m1rows != m2colms) {
 			System.out.println("cnanot multiply matrix");
 		}
 		
