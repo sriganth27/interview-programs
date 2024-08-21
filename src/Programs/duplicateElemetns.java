@@ -24,7 +24,7 @@ public class duplicateElemetns {
 		for(int element : s1) {
 			System.out.print(element+" ");
 		}
-		
+		System.out.print(s1);
 	
 		for(int s : s1) {
 			sum+=s;

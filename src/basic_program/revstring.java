@@ -16,6 +16,19 @@ public class revstring {
 		else {
 			System.out.println("not a palindrome");
 		}
+		
+		
+		String words [] = input.split(" ");
+		String rev="";
+		
+		for(String w : words) {
+			StringBuffer sb = new StringBuffer(w);
+			sb.reverse();
+			rev = rev+sb.toString()+" ";
+			
+			
+		}
+		System.out.println(rev.trim());
 
 	}
 
