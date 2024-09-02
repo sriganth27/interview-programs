@@ -21,7 +21,7 @@ public class FrequencyOfWords {
 		
 		for(Map.Entry <String, Integer> entry : entryList) {
 			
-			System.out.println(entry.getKey()+" ->" +entry.getValue()+" time");
+			System.out.println(entry.getKey()+" occurs ->" +entry.getValue()+" time");
 			
 		}
 	}
